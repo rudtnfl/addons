@@ -20,7 +20,7 @@
   "options": {
     "sendDelay": 150,
     "energy_config":{
-      "type": "socket",
+      "type": "serial",
       "serial_port": "/dev/ttyUSB0",
       "baudrate": 9600,
       "parity" : "none",
@@ -28,7 +28,7 @@
       "socket_port": 8899
     },
     "control_config": {
-      "type": "socket",
+      "type": "serial",
       "serial_port": "/dev/ttyUSB0",
       "baudrate": 9600,
       "parity": "none",
@@ -36,9 +36,9 @@
       "socket_port": 8899
     },
     "mqtt": {
-      "broker": "192.168.0.28",
-      "username": "harwin",
-      "password": "mosquitto",
+      "broker": "mqtt://core-mosquitto:1883",
+      "username": "homeassistant",
+      "password": "ohraeJ5GaiMuuchii4ukohniej0ia4aethae5exae3xeefaeghu9AhtuChaepeeh",
       "receiveDelay": 10000
     }
   },
