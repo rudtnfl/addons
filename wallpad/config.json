@@ -29,7 +29,7 @@
     },
     "control_config": {
       "type": "serial",
-      "serial_port": "/dev/ttyUSB0",
+      "serial_port": "/dev/ttyUSB1",
       "baudrate": 9600,
       "parity": "none",
       "socket_ip": "192.168.0.18",
