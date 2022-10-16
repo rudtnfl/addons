@@ -224,7 +224,7 @@ client.on("reconnect", function () {
 });
 //////////////////////////////////////////////////////////////////////////////////////
 ////////// Energy
-if (rs485_energy_config.portType == 'serial') {
+if (rs485_energy_config.type == 'serial') {
 
     log('Initializing: SERIAL');
     rs485_energy = new SerialPort({
@@ -255,7 +255,7 @@ else {
 
 //////////////////////////////////////////////////////////////////////////////////////
 ////////// Control 
-if (rs485_control_config.portType == 'serial') {
+if (rs485_control_config.type == 'serial') {
 
     log('Initializing: SERIAL');
     rs485_control = new SerialPort({
